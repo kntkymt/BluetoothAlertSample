@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AlertTimingCheckViewController.swift
 //  BluetoothAlertSample
 //
 //  Created by kntk on 2021/11/12.
@@ -23,7 +23,7 @@ private extension CBManagerState {
     }
 }
 
-final class ViewController: UIViewController {
+final class AlertTimingCheckViewController: UIViewController {
 
     // MARK: - Outlet
 
@@ -55,7 +55,7 @@ final class ViewController: UIViewController {
 
 // MARK: - CBCentralManagerDelegate
 
-extension ViewController: CBCentralManagerDelegate {
+extension AlertTimingCheckViewController: CBCentralManagerDelegate {
 
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         print("manager setuped func: \(#function)")
