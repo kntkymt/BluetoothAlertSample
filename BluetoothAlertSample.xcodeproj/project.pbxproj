@@ -15,6 +15,9 @@
 		E26A0B1B273E4A8C005B5DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26A0B19273E4A8C005B5DB6 /* LaunchScreen.storyboard */; };
 		E26A0B26274701E7005B5DB6 /* SampleiOS15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0B25274701E7005B5DB6 /* SampleiOS15ViewController.swift */; };
 		E26A0B2827470227005B5DB6 /* SampleiOS12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0B2727470227005B5DB6 /* SampleiOS12ViewController.swift */; };
+		E26A0B2A274777A8005B5DB6 /* AnyTimingBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0B29274777A8005B5DB6 /* AnyTimingBluetoothManager.swift */; };
+		E26A0B2C27477CBF005B5DB6 /* CBManagerState+name.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0B2B27477CBF005B5DB6 /* CBManagerState+name.swift */; };
+		E26A0B2E2747877B005B5DB6 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A0B2D2747877B005B5DB6 /* BluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		E26A0B1C273E4A8C005B5DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26A0B25274701E7005B5DB6 /* SampleiOS15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleiOS15ViewController.swift; sourceTree = "<group>"; };
 		E26A0B2727470227005B5DB6 /* SampleiOS12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleiOS12ViewController.swift; sourceTree = "<group>"; };
+		E26A0B29274777A8005B5DB6 /* AnyTimingBluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTimingBluetoothManager.swift; sourceTree = "<group>"; };
+		E26A0B2B27477CBF005B5DB6 /* CBManagerState+name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CBManagerState+name.swift"; sourceTree = "<group>"; };
+		E26A0B2D2747877B005B5DB6 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +68,11 @@
 			children = (
 				E26A0B0E273E4A8A005B5DB6 /* AppDelegate.swift */,
 				E26A0B10273E4A8A005B5DB6 /* SceneDelegate.swift */,
+				E26A0B2B27477CBF005B5DB6 /* CBManagerState+name.swift */,
 				E26A0B14273E4A8A005B5DB6 /* Main.storyboard */,
 				E26A0B222746FE70005B5DB6 /* AlertTimingCheck */,
-				E26A0B232746FE7F005B5DB6 /* SampleiOS15 */,
-				E26A0B242746FF0B005B5DB6 /* SampleiOS12 */,
+				E26A0B232746FE7F005B5DB6 /* AnyTimingSample */,
+				E26A0B242746FF0B005B5DB6 /* FinalSample */,
 				E26A0B17273E4A8C005B5DB6 /* Assets.xcassets */,
 				E26A0B19273E4A8C005B5DB6 /* LaunchScreen.storyboard */,
 				E26A0B1C273E4A8C005B5DB6 /* Info.plist */,
@@ -81,20 +88,22 @@
 			path = AlertTimingCheck;
 			sourceTree = "<group>";
 		};
-		E26A0B232746FE7F005B5DB6 /* SampleiOS15 */ = {
+		E26A0B232746FE7F005B5DB6 /* AnyTimingSample */ = {
 			isa = PBXGroup;
 			children = (
 				E26A0B25274701E7005B5DB6 /* SampleiOS15ViewController.swift */,
+				E26A0B29274777A8005B5DB6 /* AnyTimingBluetoothManager.swift */,
 			);
-			path = SampleiOS15;
+			path = AnyTimingSample;
 			sourceTree = "<group>";
 		};
-		E26A0B242746FF0B005B5DB6 /* SampleiOS12 */ = {
+		E26A0B242746FF0B005B5DB6 /* FinalSample */ = {
 			isa = PBXGroup;
 			children = (
 				E26A0B2727470227005B5DB6 /* SampleiOS12ViewController.swift */,
+				E26A0B2D2747877B005B5DB6 /* BluetoothManager.swift */,
 			);
-			path = SampleiOS12;
+			path = FinalSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,10 +178,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26A0B2827470227005B5DB6 /* SampleiOS12ViewController.swift in Sources */,
+				E26A0B2E2747877B005B5DB6 /* BluetoothManager.swift in Sources */,
 				E26A0B26274701E7005B5DB6 /* SampleiOS15ViewController.swift in Sources */,
+				E26A0B2C27477CBF005B5DB6 /* CBManagerState+name.swift in Sources */,
 				E26A0B13273E4A8A005B5DB6 /* AlertTimingCheckViewController.swift in Sources */,
 				E26A0B0F273E4A8A005B5DB6 /* AppDelegate.swift in Sources */,
 				E26A0B11273E4A8A005B5DB6 /* SceneDelegate.swift in Sources */,
+				E26A0B2A274777A8005B5DB6 /* AnyTimingBluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

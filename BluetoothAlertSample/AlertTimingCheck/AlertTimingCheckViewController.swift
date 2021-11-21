@@ -8,21 +8,6 @@
 import UIKit
 import CoreBluetooth
 
-private extension CBManagerState {
-
-    var name: String {
-        switch self {
-        case .unknown: return "unknown"
-        case .resetting: return "resetting"
-        case .unsupported: return "unsupported"
-        case .unauthorized: return "unauthorized"
-        case .poweredOff: return "poweredOff"
-        case .poweredOn: return "poweredOn"
-        @unknown default: return "unknown"
-        }
-    }
-}
-
 final class AlertTimingCheckViewController: UIViewController {
 
     // MARK: - Outlet
