@@ -7,6 +7,7 @@
 
 import CoreBluetooth
 
+@available(iOS 15.0, *)
 final class BluetoothManager: NSObject {
 
     // MARK: - Property
@@ -44,6 +45,7 @@ final class BluetoothManager: NSObject {
 
 // MARK: - CBCentralManagerDelegate
 
+@available(iOS 15.0, *)
 extension BluetoothManager: CBCentralManagerDelegate {
 
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
@@ -51,5 +53,6 @@ extension BluetoothManager: CBCentralManagerDelegate {
 
         // 待機終了
         continuation?.resume()
+        self.continuation = nil
     }
 }

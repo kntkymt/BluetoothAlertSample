@@ -7,6 +7,7 @@
 
 import UIKit
 
+@available(iOS 15.0, *)
 final class FinalSampleViewController: UIViewController {
     
     // MARK: - Outlet
