@@ -1,5 +1,5 @@
 //
-//  FinalSampleViewController.swift
+//  AnyTimingWithWaitiOS15SampleViewController.swift
 //  BluetoothAlertSample
 //
 //  Created by kntk on 2021/11/19.
@@ -8,7 +8,7 @@
 import UIKit
 
 @available(iOS 15.0, *)
-final class FinalSampleViewController: UIViewController {
+final class AnyTimingWithWaitiOS15SampleViewController: UIViewController {
     
     // MARK: - Outlet
 
@@ -16,7 +16,7 @@ final class FinalSampleViewController: UIViewController {
 
     // MARK: - Property
 
-    private let bluetoothManager = BluetoothManager()
+    private let bluetoothManager = AnyTimingWithWaitiOS15SampleBluetoothManager()
 
     // MARK: - Action
 

@@ -8,7 +8,7 @@
 import CoreBluetooth
 
 @available(iOS 15.0, *)
-final class BluetoothManager: NSObject {
+final class AnyTimingWithWaitiOS15SampleBluetoothManager: NSObject {
 
     // MARK: - Property
 
@@ -46,7 +46,7 @@ final class BluetoothManager: NSObject {
 // MARK: - CBCentralManagerDelegate
 
 @available(iOS 15.0, *)
-extension BluetoothManager: CBCentralManagerDelegate {
+extension AnyTimingWithWaitiOS15SampleBluetoothManager: CBCentralManagerDelegate {
 
     func centralManagerDidUpdateState(_ central: CBCentralManager) {
         print("BluetoohManager setuped")
